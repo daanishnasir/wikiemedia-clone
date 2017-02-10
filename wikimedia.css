@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+main{
+
+  width: 70%;
+  height: 87vh;
+  /*background-color: pink;*/
+  margin: 0 auto;
+  /*border: 3px solid red;*/
+
+}
+
+p{
+  font-size: 150%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.intro{
+  /*border: 1px solid red;*/
+  margin-top: 40px;
+}
+
+.through{
+  margin-top: 28px;
+}
+
+.parent {
+  display: flex;
+  height: 744px; /* Or whatever */
+  flex-flow: row wrap;
+  /*background-color: green;*/
+  border-bottom:2px solid #B3B3B3;
+  /*justify-content: space-around;*/
+}
+
+.child {
+  width: 21%;  /* Or whatever */
+  height: 154px; /* Or whatever */
+  /*background-color: yellow;*/
+  margin: auto;  /* Magic! */
+  margin-top: 10px;
+  /*border: 1 px solid red;*/
+}
+
+img{
+  height:10em;
+  padding-left:50px;
+}
+
+.imagine{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 9px;
+}
+
+.welcome{
+  margin-top: 17px;
+}
